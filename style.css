@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todoList {
+    max-width: 40%;
+    height: 30vh;
+    margin: 80px auto;
+    background-color: burlywood;
+    text-align: center;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#addTaskBtn {
+    padding: 8px;
+    cursor: pointer;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.deleteTaskBtn {
+    background-color: #54ff36;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+h2{
+    padding-top: 30px;
+}
